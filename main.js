@@ -5,20 +5,31 @@
 // stačiakampio perimetrą, plotą ir įstrižainę.
 // Pasirinktu būdu atspausdinkite pradinius stačiakampio duomenis (plotį ir aukštį) ir
 // suskaičiuotus rezultatus.
-// p.s. programa rašoma html faile
-// ✶✶) Raskite būdą kaip rezultatą išvesti ne tik į concole, bet ir kaip kažkokio
+// ✶) Raskite būdą kaip rezultatą išvesti ne tik į concole, bet ir kaip kažkokio
 // puslapyje esančio <div> elemento reikšmę
 
 // staciakampio plotis
-var plotis = 5;
+var plotis = 8;
 
 // staciakampio ilgis
-var ilgis = 10;
+var aukstis = 4;
 
 // staciakampio perimetras
-var perimetras = 2 * (plotis + ilgis);
-console.log('Staciakampio perimetras yra lygus = ' + perimetras);
+var perimetras = 2 * (plotis + aukstis);
+console.log('Staciakampio perimetras yra lygus = ' + perimetras + ' cm');
+function myFunction() {
+    document.getElementById("atsakymas").innerHTML = perimetras + ' cm';
+}
 
 // staciakampio plotas
-var plotas = plotis * ilgis;
-console.log('Staciakampio plotas yra lygus = ' + plotas);
+var plotas = plotis * aukstis;
+console.log('Staciakampio plotas yra lygus = ' + plotas+ ' cm2');
+function myFunction1() {
+    document.getElementById("atsakymasPL").innerHTML = plotas + ' cm2';
+}
+// staciakampio istrizaine
+var istrizaine = Math.sqrt((plotis * plotis) + (aukstis * aukstis));
+console.log('Staciakampio istrizaine yra lygi = ' + istrizaine + ' cm');
+function myFunction2() {
+    document.getElementById("atsakymasIS").innerHTML = istrizaine + ' cm';
+}

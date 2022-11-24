@@ -345,4 +345,58 @@ template {
 [hidden] {
   display: none;
 }
+
+.plotis {
+  text-align: center;
+  padding-right: 15px;
+}
+
+.plotis p {
+  margin-bottom: 2px;
+  margin-top: 50px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.staciakampis {
+  border: solid 2px;
+  padding: 0 10px;
+}
+
+.aukstis p {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.perimetras, .plotas, .istrizaine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#atsakymas {
+  margin: 0 auto;
+  padding-left: 5px;
+}
+
+#atsakymasPL {
+  margin: 0 auto;
+  padding-left: 5px;
+}
+
+#atsakymasIS {
+  margin: 0 auto;
+  padding-left: 5px;
+}
 /*# sourceMappingURL=main.css.map */
